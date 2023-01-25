@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saper</title>
+  <link rel="icon" href="/images/mine.gif" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="records"></div>
+  <div class="blure">
+    <div class="win"></div>
+  </div>
+  <div class="form">
+    <label for="szerokosc" id="label1">Szerokosc</label>
+    <input type="number" id="szerokosc" name="szerokosc" max="50" min="2" />
+
+    <label for="wysokosc" id="label2">Wysokosc</label>
+    <input type="number" id="wysokosc" name="wysokosc" max="50" min="2" />
+
+    <label for="miny" id="label3">Miny</label>
+    <input type="number" id="miny" name="miny" />
+
+    <label for="nick" id="label4">Nick</label>
+    <input type="text" id="nick" name="nick" />
+
+    <input type="submit" id="wyslij" />
+    <input type="submit" id="reset" value="Reset" />
+    <span id="timer"></span>
+  </div>
+  <span class="msg"></span><br />
+  <span class="msg2"></span>
+  <span class="bombsLeft"></span>
+  <div class="saper hidden"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
